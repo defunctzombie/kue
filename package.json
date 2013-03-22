@@ -1,17 +1,22 @@
 {
-    "name": "kue"
-  , "version": "0.6.0"
-  , "description": "Feature rich priority job queue backed by redis"
-  , "homepage": "http://learnboost.github.com/kue/"
-  , "keywords": ["job", "queue", "worker", "redis"]
-  , "author": "TJ Holowaychuk <tj@learnboost.com>"
-  , "repository":{
-        "type": "git"
-      , "url": "https://github.com/LearnBoost/kue.git"
-    }
-  , "dependencies": {
-      "redis": "0.7.2"
-    , "reds": "0.1.4"
-  }
-  , "main": "index"
+  "name": "kue",
+  "version": "0.6.0-dz0",
+  "description": "Feature rich priority job queue backed by redis",
+  "homepage": "http://learnboost.github.com/kue/",
+  "keywords": [
+    "job",
+    "queue",
+    "worker",
+    "redis"
+  ],
+  "author": "TJ Holowaychuk <tj@learnboost.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LearnBoost/kue.git"
+  },
+  "dependencies": {
+    "redis": "0.7.2",
+    "reds": "0.1.4"
+  },
+  "main": "index"
 }
